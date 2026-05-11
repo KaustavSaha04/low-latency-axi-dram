@@ -1,0 +1,103 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.717692",
+   "Default View_TopLeft":"-199,382",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port s_axi_aresetn_0 -pg 1 -lvl 0 -x -20 -y 880 -defaultsOSRD
+preplace port s_axi_aclk_0 -pg 1 -lvl 0 -x -20 -y 1010 -defaultsOSRD
+preplace port err_0 -pg 1 -lvl 7 -x 2020 -y 1040 -defaultsOSRD
+preplace port wr_stall_0 -pg 1 -lvl 7 -x 2020 -y 50 -defaultsOSRD
+preplace port wr_stall_1 -pg 1 -lvl 7 -x 2020 -y 1070 -defaultsOSRD
+preplace port err_1 -pg 1 -lvl 7 -x 2020 -y 1230 -defaultsOSRD
+preplace port wr_stall_2 -pg 1 -lvl 7 -x 2020 -y 1260 -defaultsOSRD
+preplace port err_2 -pg 1 -lvl 7 -x 2020 -y 940 -defaultsOSRD
+preplace port s_axi_rready_0 -pg 1 -lvl 0 -x -20 -y 560 -defaultsOSRD
+preplace port s_axi_arlock_0 -pg 1 -lvl 0 -x -20 -y 180 -defaultsOSRD
+preplace port s_axi_rvalid_0 -pg 1 -lvl 7 -x 2020 -y 880 -defaultsOSRD
+preplace port s_axi_arready_0 -pg 1 -lvl 7 -x 2020 -y 20 -defaultsOSRD
+preplace port s_axi_rlast_0 -pg 1 -lvl 7 -x 2020 -y 820 -defaultsOSRD
+preplace port s_axi_awlock_0 -pg 1 -lvl 0 -x -20 -y 390 -defaultsOSRD
+preplace port s_axi_wlast_0 -pg 1 -lvl 0 -x -20 -y 640 -defaultsOSRD
+preplace port s_axi_arvalid_0 -pg 1 -lvl 0 -x -20 -y 270 -defaultsOSRD
+preplace portBus s_axi_awburst_0 -pg 1 -lvl 0 -x -20 -y 300 -defaultsOSRD
+preplace portBus s_axi_rresp_0 -pg 1 -lvl 7 -x 2020 -y 850 -defaultsOSRD
+preplace portBus s_axi_arlen_0 -pg 1 -lvl 0 -x -20 -y 150 -defaultsOSRD
+preplace portBus s_axi_arprot_0 -pg 1 -lvl 0 -x -20 -y 210 -defaultsOSRD
+preplace portBus s_axi_bresp_0 -pg 1 -lvl 7 -x 2020 -y 760 -defaultsOSRD
+preplace portBus s_axi_awcache_0 -pg 1 -lvl 0 -x -20 -y 330 -defaultsOSRD
+preplace portBus s_axi_araddr_0 -pg 1 -lvl 0 -x -20 -y 60 -defaultsOSRD
+preplace portBus s_axi_rdata_0 -pg 1 -lvl 7 -x 2020 -y 790 -defaultsOSRD
+preplace portBus s_axi_arburst_0 -pg 1 -lvl 0 -x -20 -y 90 -defaultsOSRD
+preplace portBus s_axi_awlen_0 -pg 1 -lvl 0 -x -20 -y 360 -defaultsOSRD
+preplace portBus s_axi_arcache_0 -pg 1 -lvl 0 -x -20 -y 120 -defaultsOSRD
+preplace portBus s_axi_awprot_0 -pg 1 -lvl 0 -x -20 -y 420 -defaultsOSRD
+preplace portBus s_axi_awsize_0 -pg 1 -lvl 0 -x -20 -y 450 -defaultsOSRD
+preplace portBus s_axi_arsize_0 -pg 1 -lvl 0 -x -20 -y 240 -defaultsOSRD
+preplace portBus s_axi_wstrb_0 -pg 1 -lvl 0 -x -20 -y 680 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 6 -x 1860 -y 410 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 5 -x 1540 -y 410 -defaultsOSRD
+preplace inst wr_addr_pipe_reg_0 -pg 1 -lvl 2 -x 470 -y 1280 -defaultsOSRD
+preplace inst wr_data_pipe_reg_0 -pg 1 -lvl 2 -x 470 -y 830 -defaultsOSRD
+preplace inst wr_addr_pipe_reg_1 -pg 1 -lvl 4 -x 1120 -y 1090 -defaultsOSRD
+preplace inst wr_data_pipe_reg_1 -pg 1 -lvl 5 -x 1540 -y 950 -defaultsOSRD
+preplace inst data_stage_0 -pg 1 -lvl 1 -x 150 -y 890 -defaultsOSRD
+preplace inst stall_reg_0 -pg 1 -lvl 2 -x 470 -y 1080 -defaultsOSRD
+preplace inst stall_reg_1 -pg 1 -lvl 5 -x 1540 -y 1160 -defaultsOSRD
+preplace inst addr_stage_0 -pg 1 -lvl 3 -x 790 -y 1060 -defaultsOSRD
+preplace inst response_stage_0 -pg 1 -lvl 6 -x 1860 -y 950 -defaultsOSRD
+preplace netloc s_axi_aresetn_0_1 1 0 6 0 1000 320 1170 640 1170 980 1180 1280 1040 1720J
+preplace netloc s_axi_aclk_0_1 1 0 5 NJ 1010 310 1190 NJ 1190 950 1210 1290
+preplace netloc axi_bram_ctrl_0_s_axi_wready 1 0 5 20 660 NJ 660 NJ 660 NJ 660 N
+preplace netloc data_stage_0_wr_data 1 1 1 280 800n
+preplace netloc data_stage_0_wr_addr 1 1 1 300 860n
+preplace netloc data_stage_0_pipe_en 1 1 1 330 860n
+preplace netloc data_stage_0_err 1 1 6 280J 920 620J 1260 NJ 1260 NJ 1260 NJ 1260 1980J
+preplace netloc wr_data_pipe_reg_0_data 1 2 3 640 620 NJ 620 N
+preplace netloc wr_addr_pipe_reg_0_addr 1 2 1 630 1040n
+preplace netloc axi_bram_ctrl_0_s_axi_awready 1 2 3 650 400 NJ 400 N
+preplace netloc addr_stage_0_data 1 3 2 980 920 NJ
+preplace netloc addr_stage_0_addr 1 3 1 980 1030n
+preplace netloc addr_stage_0_wr_stall 1 3 4 970J 1200 1320 1070 NJ 1070 NJ
+preplace netloc addr_stage_0_err 1 3 4 940J 1250 NJ 1250 1710J 1230 NJ
+preplace netloc data_stage_0_wvalid 1 1 4 270J 740 NJ 740 NJ 740 1270
+preplace netloc addr_stage_0_awvalid 1 3 2 960 440 NJ
+preplace netloc addr_stage_0_pipe_en 1 3 2 960 1190 1340
+preplace netloc data_stage_0_wr_stall 1 1 6 290 1180 NJ 1180 930J 1270 NJ 1270 NJ 1270 2000J
+preplace netloc stall_reg_0_stall 1 2 1 610 1080n
+preplace netloc wr_data_pipe_reg_1_data 1 5 1 1690 910n
+preplace netloc wr_addr_pipe_reg_1_addr 1 4 2 1260 860 1700J
+preplace netloc stall_reg_1_stall 1 5 1 1730 990n
+preplace netloc axi_bram_ctrl_0_s_axi_bvalid 1 4 2 1300 840 1710J
+preplace netloc response_stage_0_bready 1 4 3 1350 20 NJ 20 1980
+preplace netloc response_stage_0_err 1 6 1 NJ 940
+preplace netloc s_axi_awburst_0_1 1 0 5 NJ 300 NJ 300 NJ 300 NJ 300 NJ
+preplace netloc s_axi_rready_0_1 1 0 5 NJ 560 NJ 560 NJ 560 NJ 560 NJ
+preplace netloc axi_bram_ctrl_0_s_axi_rresp 1 4 3 1310 850 NJ 850 NJ
+preplace netloc s_axi_arlen_0_1 1 0 5 NJ 150 NJ 150 NJ 150 NJ 150 1270J
+preplace netloc s_axi_arlock_0_1 1 0 5 NJ 180 NJ 180 NJ 180 NJ 180 NJ
+preplace netloc axi_bram_ctrl_0_s_axi_rvalid 1 4 3 1350 820 NJ 820 1990J
+preplace netloc s_axi_arprot_0_1 1 0 5 0J 200 NJ 200 NJ 200 NJ 200 NJ
+preplace netloc axi_bram_ctrl_0_s_axi_bresp 1 4 3 1320 800 1690J 760 NJ
+preplace netloc axi_bram_ctrl_0_s_axi_arready 1 4 3 1340 10 NJ 10 2000J
+preplace netloc s_axi_awcache_0_1 1 0 5 0J 320 NJ 320 NJ 320 NJ 320 NJ
+preplace netloc s_axi_araddr_0_1 1 0 5 NJ 60 NJ 60 NJ 60 NJ 60 1330J
+preplace netloc axi_bram_ctrl_0_s_axi_rdata 1 4 3 1340 810 NJ 810 2000J
+preplace netloc axi_bram_ctrl_0_s_axi_rlast 1 4 3 1330 830 NJ 830 2000J
+preplace netloc s_axi_arburst_0_1 1 0 5 NJ 90 NJ 90 NJ 90 NJ 90 1270J
+preplace netloc s_axi_awlen_0_1 1 0 5 0J 340 NJ 340 NJ 340 NJ 340 NJ
+preplace netloc s_axi_awlock_0_1 1 0 5 10J 360 NJ 360 NJ 360 NJ 360 NJ
+preplace netloc s_axi_arcache_0_1 1 0 5 NJ 120 NJ 120 NJ 120 NJ 120 1260J
+preplace netloc s_axi_wlast_0_1 1 0 5 NJ 640 NJ 640 NJ 640 NJ 640 NJ
+preplace netloc s_axi_awprot_0_1 1 0 5 20J 380 NJ 380 NJ 380 NJ 380 NJ
+preplace netloc s_axi_awsize_0_1 1 0 5 30J 420 NJ 420 NJ 420 NJ 420 NJ
+preplace netloc s_axi_arsize_0_1 1 0 5 NJ 240 NJ 240 NJ 240 NJ 240 NJ
+preplace netloc s_axi_arvalid_0_1 1 0 5 0J 260 NJ 260 NJ 260 NJ 260 NJ
+preplace netloc s_axi_wstrb_0_1 1 0 5 NJ 680 NJ 680 NJ 680 NJ 680 NJ
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 5 1 NJ 410
+levelinfo -pg 1 -20 150 470 790 1120 1540 1860 2020
+pagesize -pg 1 -db -bbox -sgen -220 0 2210 1370
+"
+}
+0
