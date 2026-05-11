@@ -15,6 +15,14 @@ All versions of `mem_test_axi` are available in the `mem_test_axi` branch.
    - RD = 2 cycles (ADDR, DATA)
 
    **Parallel processing of data and response pipes was limited by Xilinx BRAM IP**
+   
+2) `BRAM_Exp` -> **drives the BRAM IP directly from tb to determine minimum latency sequence supported by IP**  
+
+   Least possible latency:
+   - WR = 3 cycles (ADDR, DATA, RESP handshakes)
+   - RD = 2 cycles (ADDR, DATA)
+
+   **Parallel processing of data and response pipes was limited by Xilinx BRAM IP**
 
 Block Design (`.bd`) files are also included to provide an overall RTL/system-level view of the interconnections between IPs and modules used in the project.
 
